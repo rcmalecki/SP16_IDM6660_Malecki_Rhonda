@@ -1,0 +1,203 @@
+/* SIMPLE RESET */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* FONT STYLES */
+
+html, aside ol li:nth-of-type(2) {
+
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 1.125em;
+
+}
+
+h1, h2, h3, h4, h5, h6, aside ol {
+
+	font-family: 'Oswald', sans-serif;
+
+}
+
+/* STUDENT STYLES */
+
+/*Note from Rhonda: I got everything pretty close to the wireframe. The only thing I wasn't able to solve in time was how to get the text to display before the images in the aside. */
+
+body {
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	width:960px;
+	font-size:1.1em;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+a:hover {
+	color:orange;
+	text-decoration:underline;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* code for header begins */
+header {
+	background-color:#eee;
+	width:960px;
+	height:250px;
+	padding:100px 80px;
+	text-align:center;
+	margin-bottom:80px;
+}
+
+header h1 {
+	text-transform:uppercase;
+	font-size:4.2em;
+}
+
+header ul {
+	margin-top:50px;
+}
+
+header li{
+	display:inline;
+	margin:5px;
+	font-size:.8em;
+}
+/* code for header ends */
+
+
+/* code for section and articles begins*/
+section {
+	float:left;
+}
+
+section h1 {
+	margin:30px 10px 10px 10px;
+	font-size:3em;
+	width:580px;
+	line-height:1.2em;
+}
+
+article {
+	position:relative;
+	width:620px;
+	margin-top:80px;
+	line-height:1.2em;
+}
+
+article h2 span:first-of-type {
+	position:absolute;
+	background-color:orange;
+	border-radius:50%;
+	width:110px;
+	height:110px;
+	color:#fff;
+	font-size:.7em;
+	font-weight:lighter;
+	margin: 80px 0 0 20px;
+	text-align:center;
+	line-height:2.8em;
+    -ms-transform: rotate(345deg); /* IE 9 */
+    -webkit-transform: rotate(345deg); /* Chrome, Safari, Opera */
+    transform: rotate(345deg);
+}
+
+article h2 span:nth-of-type(2) {
+	font-size:.7em;
+	font-weight:lighter;
+}
+
+article h2 {
+	font-size:3em;
+	line-height:1em;
+}
+
+article img{
+	width:620px;	
+}
+
+article p {
+	margin-top:10px;
+}
+/* code for section and articles ends*/
+
+
+/* code for aside begins*/
+aside {
+	width:220px;
+	float:right;
+	text-align:center;
+	margin-top:30px;
+}
+
+aside h1 {
+	font-size:1.3em;
+	line-height:1.5em;
+	margin-top:0px;
+}
+
+
+
+aside li {
+	margin-top:30px;
+}
+
+aside img{
+	width:200px;
+}
+/* code for aside ends*/
+
+
+/* code for footer begins*/
+footer {
+	clear:both;
+	padding-top:100px;
+}
+
+footer h1 {
+	font-size:1.3em;
+	line-height:1.5em;
+}
+
+footer p {
+	font-size:.8em;
+	line-height:1em;
+	font-weight:lighter;
+}
+
+footer nav {
+	margin-top:30px;
+	display:block;
+	width: 300px;
+	float:left;
+}
+
+footer ol {
+	margin-top:30px;
+	display:block;
+	width:300px;
+	float:left;
+	padding-bottom:50px;
+}
+
+footer ol li:first-of-type {
+	font-size:.7em;
+}
+/* code for footer ends*/
