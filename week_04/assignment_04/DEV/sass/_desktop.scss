@@ -1,0 +1,229 @@
+/* DESKTOP */
+
+@media screen and (min-width:1280px) {
+
+	html {
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		margin:0;
+		padding:0;
+	  -webkit-box-sizing: inherit;
+	  -moz-box-sizing: inherit;
+	  box-sizing: inherit;
+	}
+
+	/* FONT STYLES */
+
+	html, aside ol li:nth-of-type(2) {
+
+		font-family: 'Merriweather', serif;
+		font-size: 16px;
+		line-height: 1.125em;
+
+	}
+
+	h1, h2, h3, h4, h5, h6, aside ol {
+
+		font-family: 'Oswald', sans-serif;
+
+	}
+
+	/* STUDENT STYLES */
+
+	html {
+		background-color:#fff;
+		color:#333;
+	}
+
+	body {
+		margin-top:2.083333333333333%; /* 20px / 960px */
+		margin-right:auto;
+		margin-left:auto;
+		max-width:60em; /* 960px / 16px */
+		font: normal 100%;
+	}
+
+	img {
+		width:100%;
+	}
+
+	ul {
+		list-style-type: none;
+	}
+
+	/* code for header begins */
+	header {
+		background-color:#eee;
+		width:100%;
+		height:26.041666666666667%; /* 250px / 960px */
+		padding:10.41666666666667% 8.333333333333%; 
+		text-align:center;
+		margin-bottom:8.333333333333%;
+	}
+
+	header h1 {
+		text-transform:uppercase;
+		font-size:4.375em; /* 70px / 16px */
+		line-height:1em;
+	}
+
+	header ul {
+		margin-top:5.208333333333333%; /* 50px / 960px */
+	}
+
+	header li{
+		display:inline;
+		margin:0 0.5208333333333333% /* 5px / 960px */;
+		font-size:.8em;
+	}
+	/* code for header ends */
+
+
+	/* code for section and articles begins*/
+	section {
+		float:left;
+		width:64.5833333333333333%; /* 620px / 960px */
+	}
+
+	section h1 {
+		margin:2.083333333333333% /* 20px / 960px */ 1.612903225806452% /* 10px / 620px */ 1.612903225806452% /* 10px / 620px */ 1.612903225806452% /* 10px / 620px */;
+		font-size:3em;
+		line-height:1.2em;
+	}
+
+	article {
+		position:relative;
+		margin-top:12.90322580645161%; /* 80px / 620px */
+		line-height:1.2em;
+	}
+
+	article h2 span:first-of-type {
+		display:table-cell;
+		position:absolute;
+		background-color:orange;
+		border-radius:50%;
+		top:9.67741935483871%; /* 60px / 620px */
+		left:3.225806451612903%; /* 20px / 620px */
+		width:16.12903225806452%; /* 100px / 620px */
+		height:8.06451612903226%; /* 50px / 620px */
+		color:#fff;
+		font-size:.7em;
+		font-weight:300;
+		text-align:center;
+		line-height:2.8em;
+		-ms-transform: rotate(345deg); /* IE 9 */
+		-webkit-transform: rotate(345deg); /* Chrome, Safari, Opera */
+		transform: rotate(345deg);
+		box-shadow: 10px 10px 30px -9px  rgba(0,0,0,0.75);
+	}
+
+
+	article h2 span:nth-of-type(2) {
+		font-size: .7em;
+		font-weight: 300;
+	}
+
+	article h2 {
+		font-size:3em;
+		line-height:1em;
+	}
+
+	article p {
+		margin-top:2.0833333333333%; /* 20px / 960px */
+	}
+	/* code for section and articles ends*/
+
+
+	/* code for aside begins*/
+	aside {
+		max-width:22.91666666666666667%; /* 220px / 960px */
+		float:right;
+		text-align:center;
+		margin-top:2.083333333333333% /* 20px / 960px */
+	}
+
+	aside ol li {
+		list-style-position: inside;
+		font-weight:300;
+		margin-bottom: 22.72727272727273%; /* 50px / 220px*/
+	}
+
+	aside ol li h1 {
+		margin-bottom:4.545454545454545%; /* 10px / 220px*/
+		line-height:1.2em;
+	}
+
+	aside ol li:first-of-type {
+		list-style: none;
+		margin-bottom: 0;
+		font-size: 1em;
+	}
+
+	aside ol li:nth-of-type(2) {
+		list-style:none;
+		font-size:0.8em;
+		margin-top:2.604166666666667%; /* 25px / 960px */
+	}
+
+	aside ol li img{
+		float:left;
+		margin-bottom:20.83333333333333%; /* 200px / 960px */
+	}
+
+	aside ol li:after {
+		clear:both;
+	}
+	/* code for aside ends*/
+
+
+	/* code for footer begins*/
+	footer {
+		clear:both;
+		padding-top:10.41666666666666%; /* 100px / 960px */
+	}
+
+	footer h1 {
+		font-size:1.5em;
+		line-height:1.5em;
+	}
+
+	footer p {
+		font-size:.8em;
+		line-height:1em;
+		font-weight:lighter;
+	}
+
+	footer nav {
+		margin-top:3.125%; /* 30px / 960px */
+		display:block;
+		width:31.25%; /* 300px / 960px */
+		float:left;
+	}
+
+	footer ol {
+		margin-top:3.125%; /* 30px / 960px */
+		display:block;
+		width:31.25%; /* 300px / 960px */
+		float:left;
+		padding-bottom:5.20833333333333%; /* 50px / 960px */
+	}
+
+	footer ol li:first-of-type {
+		font-size:.7em;
+	}
+	/* code for footer ends*/
+
+	a {
+		color:#333;
+		text-decoration:none;
+	}
+
+	a:hover {
+		color:orange;
+		text-decoration:underline;
+	}
+}
