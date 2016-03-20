@@ -1,0 +1,43 @@
+/* TABLET */
+
+@media screen and (max-width:768px) {
+	section article:first-child {
+		width:40%;
+		margin:0;
+		padding-left:5%;
+	}
+	
+	section article:nth-child(2) {
+		width:40%;
+		border-left-color:none;
+		border-left-style:none;
+	}
+
+	section article li button{
+		width:100%;
+		padding:.8em;
+	}
+	
+	section article:nth-child(3) button{
+		width:35%;
+		padding:2%;
+		margin:30% auto 0% auto;
+	}
+	
+	footer p {
+		line-height:1.2em;
+		padding:2%;
+	}
+	
+	footer nav ul li{
+		margin-right:8%;
+	}
+	
+	a:hover {
+		color:#fff;
+	}
+	
+	footer a {
+		text-decoration:underline;
+	}
+}
