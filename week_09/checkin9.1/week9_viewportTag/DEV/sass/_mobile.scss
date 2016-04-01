@@ -1,0 +1,62 @@
+/* MOBILE */
+
+/*
+	Color Hex Codes:
+
+	Dark Gray = #464646
+	Dark Teal = #00a5b6
+	Gold = #e5c370
+	Light Teal = #b5eee5
+	LL Teal = #d8f0ec
+*/
+
+@media screen and (max-width:480px) {
+
+header img:nth-child(2) {
+	visibility: hidden;
+	width:1%;
+}
+
+header ul {
+	background-color:#ffffff;
+	margin-top:1%;
+}
+
+header ul li {
+	width:80%;
+}
+
+header nav ul li a {
+	margin-bottom:2%;
+	background-color:#00a5b6;
+	padding:4%;
+	margin:5%;
+	border-radius:10%;
+}
+
+header ul li a:hover {
+	text-decoration:none;
+}
+
+h1 {
+	font-size:2em;
+}
+
+section h2 {
+	font-size:1.5em;
+}
+
+section article img {
+	float:none;
+	width:100%;
+}
+
+section h2, p {
+	margin-left:0%;
+}
+
+footer p {
+	font-size:.5em;
+}
+
+}
