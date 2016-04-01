@@ -1,0 +1,23 @@
+/* TABLET */
+
+/*
+	Color Hex Codes:
+
+	Dark Gray = #464646
+	Dark Teal = #00a5b6
+	Gold = #e5c370
+	Light Teal = #b5eee5
+	LL Teal = #d8f0ec
+*/
+
+@media screen and (max-width:768px) {
+	section article img {
+	float:none;
+	width:100%;
+}
+
+section h2, p {
+	margin-left:0%;
+}
+
+}
