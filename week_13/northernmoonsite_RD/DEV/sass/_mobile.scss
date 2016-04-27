@@ -1,0 +1,31 @@
+/* MOBILE */
+
+/*
+	Color Hex Codes:
+	
+	DKBLUE = #041B36
+	BLUE = #082B56
+	LIGHT YELLOW = #FCF3C6
+
+*/
+
+
+@media screen and (max-width:480px) {
+
+	*#store {
+		display: none;
+	}
+
+	header h2 {
+		display: none;
+	}
+
+	header nav ul {
+		margin: 0;
+	}
+
+	header nav ul li {
+		float: none;
+	}
+	
+}

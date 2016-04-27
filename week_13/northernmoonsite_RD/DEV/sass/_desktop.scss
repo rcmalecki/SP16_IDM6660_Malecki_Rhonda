@@ -1,0 +1,328 @@
+/* DESKTOP */
+
+/*
+	Color Hex Codes:
+	
+	DKBLUE = #041B36
+	BLUE = #082B56
+	LIGHT YELLOW = #FCF3C6
+
+*/
+
+* { 
+	-webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+/*
+COLORS:
+DKBLUE = #041B36
+BLUE = #082B56
+LIGHT YELLOW = #FCF3C6
+*/
+
+body {
+	font-family:‘Arial Narrow’, sans-serif;
+	background-color:#fff;
+	padding:0;
+	margin:0;
+}
+
+h1 h2 p {
+	color:#041b36;
+}
+
+a {
+    color:#041b36;
+	text-decoration:none;
+}
+
+a:hover {
+    color:#ffeacc;
+}
+
+/*HEADER BEGINS*/
+header {
+	position:fixed;
+	padding:10px;
+	color:#fff;
+	width:100%;
+	background-image:url("../images/stardust_dkbl.png");
+	background-repeat:repeat-x;
+	height:130px;
+	z-index:1;
+}
+
+#logo {
+	margin-left:2%;
+}
+
+#branding a {
+	color:#fff;
+}
+
+#branding a:hover {	
+	color:#fff;
+}
+
+header h1 h2 {
+	letter-spacing:.1em;
+}
+
+header h1 {
+	font-size:2.4em;
+	font-weight:lighter;
+	line-height:0;
+	margin-left:10%;
+	margin-top:-80px;
+}
+
+header h1 a:hover{
+	color:#fff;
+}
+
+header h2 {
+	font-size:1.1em;
+	line-height:1em;
+	letter-spacing:.1em;
+	margin-left:10%;
+}
+
+nav ul {
+	margin-left:65%;
+	margin-top:-160px;
+	margin-right:20px;
+}
+
+nav li{
+	color:#fff;
+	font-size:1.5em;
+	list-style:none;
+	display:inline-block;
+	float:left;
+	margin-left:50px;
+	padding:0;
+}
+
+#store {
+	margin-top:-90px;
+	margin-left:45%;
+	margin-right:55%;
+}
+/*HEADER ENDS*/
+
+
+/*HOMEPAGE CONTENT STARTS*/
+section#portfolio {
+	padding-top:130px;
+}
+
+section#portfolio article {
+	width:25%;
+	float:left;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+
+section#portfolio article div.overlay {
+	display:none; /* CHANGE TO NONE ON PRODUCTION */
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	padding:10px;
+	background-color:rgba(0,0,0,0.10);
+	overflow:hidden;
+}
+
+section#portfolio article div.overlay a {
+	color: black;
+	height: 100%;
+}
+
+section#portfolio article img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.thumbnail {
+	padding:0;
+	margin:0;
+}
+
+.overlay h3{
+	font-size:2em;
+	color:#fcf3c6;
+	margin-top:50%;
+	text-align:center;
+}
+
+.overlay:hover {
+	font-size:1.5em;
+}
+/*HOMEPAGE CONTENT ENDS*/
+
+
+/*PRODUCTS CONTENT ENDS*/
+#products {
+	padding-top:12%;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0;
+}
+
+#products article {
+	margin-bottom:36%;
+}
+
+#products article img{
+	float:left;
+	width:50%;
+	margin-right:8%;
+}
+
+#products article h2, p{
+	color:#041B36;
+	line-height:1.3em;
+}
+
+#products article p:nth-child(4){
+	font-size:1.5em;
+}
+
+#products article button{
+	background-color:#041B36;
+	color:#fff;
+	padding:1% 2%;
+	width:26%;
+	border-radius:8%;
+	font-size:1.3em;
+}
+
+#products article button a{
+	text-align:center;
+	color:#fff;
+	background-color:none;
+}
+
+#products article button a:hover{
+	text-decoration:none;
+}
+
+figcaption{
+  color:#000;
+  position:absolute;
+  bottom:0;
+  padding:5px 20px;
+  line-height:1.4em;
+  background-color:rgba(0,0,0,0.10);
+}
+/*PRODUCTS PAGE CONTENT ENDS*/
+
+
+/*ABOUT PAGE CONTENT STARTS*/
+#about {
+	padding-top:275px;
+	width:50%;
+	line-height:1.2em;
+	font-size:1.2em;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15%;
+}
+
+#about img {
+	float:left;
+	margin:20px;
+}
+
+#about p {
+	margin:20px;
+}
+
+#about a {
+	color:#082b56;
+	font-weight:bold;
+	line-height:.8em;
+	letter-spacing:.2px;
+}
+
+#about a:hover {
+	background-color:#fcf3c6;
+}
+/*ABOUT PAGE CONTENT ENDS*/
+
+
+/*CONTACT PAGE CONTENT STARTS*/
+#contact {
+	padding-top:200px;
+	width:50%;
+	line-height:1.2em;
+	font-size:1em;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:9%;
+}
+
+form {
+	width:600px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:50px;
+	}
+	
+fieldset {
+	background-color:#fcf3c6;
+}
+
+#button {
+	background-color:#041b36;
+	color:#fff;
+	font-size:1em;
+	font-weight:bold;
+	width:24%;
+	margin-right:38%;
+	margin-left:38%;
+}
+
+form input {
+	padding:5px;
+	border-radius:5px;
+	width:100%;
+	font-weight:bold;
+}
+
+#form-intro{
+	line-height:1.2em;
+}
+
+textarea {
+	padding:5px;
+	border-radius:5px;
+	height:100px;
+	width:100%;
+}
+/*CONTACT PAGE CONTENT ENDS*/
+
+
+/*FOOTER CONTENT STARTS*/
+footer {
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	color:#fff;
+	background-image:url("../images/stardust_dkbl.png");
+	background-repeat:repeat-x;
+}
+
+#bottom {
+	position:absolute;
+	bottom:0;
+}
+/*FOOTER PAGE CONTENT ENDS*/
