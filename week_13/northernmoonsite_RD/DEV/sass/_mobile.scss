@@ -15,17 +15,181 @@
 	*#store {
 		display: none;
 	}
+	
+	header {
+		height:25% !important;
+		padding:0% !important;
+	}
 
+
+	header h1, h2 {
+		margin-left:auto !important;
+		margin-right:auto !important;
+		text-align:center;
+	}
+	
+	header h1 {
+		font-size:1.5em !important;
+		margin-top:1% !important;
+	}
+	
 	header h2 {
-		display: none;
+		font-size:.8em !important;
+		margin-top:2% !important;
+		letter-spacing:0 !important;
 	}
-
+	
 	header nav ul {
-		margin: 0;
+		margin-left:0% !important;
+		margin-top:8% !important;
+		position:center !important;
+	}
+	
+	header img {
+		width:120%;
+		display:inline !important;
+		float:none !important;
+	}
+	
+	header nav li {
+		margin-left:0% !important;
+		padding-left:0% !important;
+		margin-right:8% !important;
+	}
+	
+	header nav ul li:nth-child(5) {
+		margin-right:0% !important;
+	}
+	
+	#branding img {
+		visibility:hidden;
+	}
+	
+	section#portfolio {
+		padding-top:44% !important;
+	}
+	
+	section#portfolio article {
+		width:50% !important;
+	}
+	
+	section#portfolio article div.overlay a {
+		font-size:.7em;
+	}
+	
+	
+/*PRODUCTS CONTENT ENDS*/
+	#products {
+		padding-top:50% !important;
 	}
 
-	header nav ul li {
-		float: none;
+	#products article {
+		width:92% !important;
+		margin-bottom:25% !important;
+		visibility:visible !important;
+	}
+
+	#products article img{
+		float:none !important;
+		width:100% !important;
+	}
+
+	#products article h2 {
+		font-size:1.4em !important;
+		text-align:left;
+	}
+
+	#products article p:nth-child(4){
+		font-size:1.6em !important;
+	}
+
+	#products article button{
+		width:100% !important;
+		height:2.5em !important;
+		margin-right:auto !important;
+		margin-left:auto !important;
+	}
+
+	#products article button a:hover{
+		color:none !important;
+	}
+
+/*PRODUCTS PAGE CONTENT ENDS*/
+	
+/*ABOUT PAGE CONTENT STARTS*/
+	
+	#about {
+		padding-top:50% !important;
+		width:92% !important;
+		font-size:1em;
+		margin-bottom:0% !important;
+	}
+
+	#about img {
+		width:44%;
+		margin-right:6% !important;
+	}
+	
+	#about p {
+		margin-bottom:4% !important;
+	}
+
+	#bottom {
+		position:relative !important;
+		margin-top:2% !important;
+	}
+	
+	#about a {
+		background-color:#fcf3c6;
+	}
+
+	#about a:hover {
+		background-color:none !important;
+	}
+
+/*ABOUT PAGE CONTENT ENDS*/
+	
+/*CONTACT PAGE CONTENT STARTS*/
+
+	#contact {
+		width:90% !important;
+		padding-top:46% !important;
+	}
+	
+	#contact h2 {
+		text-align:left !important;
+		margin-left:3% !important;
+		width:88%;
+	}
+
+	#contact form {
+		width:90% !important;
+	}
+	
+	#submit {
+		width:100% !important;
+		height:2.5em !important;
+		margin-right:auto !important;
+		margin-left:auto !important;
+	}
+	
+	textarea {
+		height:8em !important;
+	}
+	
+	#bottom {
+		position:relative !important;
+		margin-top:2% !important;
+	}
+	
+/*CONTACT PAGE CONTENT ENDS*/	
+	
+	footer p {
+		font-size:.7em;
+	}
+	
+	footer {
+		padding:.5%;
 	}
 	
 }

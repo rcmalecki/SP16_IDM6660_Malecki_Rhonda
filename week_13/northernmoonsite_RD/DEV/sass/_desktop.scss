@@ -15,13 +15,6 @@
   box-sizing:border-box;
 }
 
-/*
-COLORS:
-DKBLUE = #041B36
-BLUE = #082B56
-LIGHT YELLOW = #FCF3C6
-*/
-
 body {
 	font-family:‘Arial Narrow’, sans-serif;
 	background-color:#fff;
@@ -33,29 +26,20 @@ h1 h2 p {
 	color:#041b36;
 }
 
-a {
-    color:#041b36;
-	text-decoration:none;
-}
-
-a:hover {
-    color:#ffeacc;
-}
-
 /*HEADER BEGINS*/
 header {
 	position:fixed;
-	padding:10px;
+	padding:1%;
 	color:#fff;
 	width:100%;
 	background-image:url("../images/stardust_dkbl.png");
 	background-repeat:repeat-x;
-	height:130px;
+	height:16%;
 	z-index:1;
 }
 
-#logo {
-	margin-left:2%;
+#branding img {
+	width:7%;
 }
 
 #branding a {
@@ -63,19 +47,19 @@ header {
 }
 
 #branding a:hover {	
-	color:#fff;
+	color:#FCF3C6;
 }
 
 header h1 h2 {
-	letter-spacing:.1em;
+	letter-spacing:.2em;
 }
 
 header h1 {
-	font-size:2.4em;
+	font-size:220%;
 	font-weight:lighter;
 	line-height:0;
-	margin-left:10%;
-	margin-top:-80px;
+	margin-left:8%;
+	margin-top:-4%;
 }
 
 header h1 a:hover{
@@ -83,30 +67,26 @@ header h1 a:hover{
 }
 
 header h2 {
-	font-size:1.1em;
+	font-size:98%;
 	line-height:1em;
 	letter-spacing:.1em;
-	margin-left:10%;
+	margin-left:8%;
 }
 
-nav ul {
-	margin-left:65%;
-	margin-top:-160px;
-	margin-right:20px;
+header nav ul {
+	margin-left:70%;
+	margin-top:-12%;
 }
 
-nav li{
-	color:#fff;
-	font-size:1.5em;
-	list-style:none;
+header nav li{
 	display:inline-block;
 	float:left;
-	margin-left:50px;
+	margin-left:10%;
 	padding:0;
 }
 
 #store {
-	margin-top:-90px;
+	margin-top:-4%;
 	margin-left:45%;
 	margin-right:55%;
 }
@@ -115,7 +95,7 @@ nav li{
 
 /*HOMEPAGE CONTENT STARTS*/
 section#portfolio {
-	padding-top:130px;
+	padding-top:4%;
 }
 
 section#portfolio article {
@@ -132,7 +112,7 @@ section#portfolio article div.overlay {
 	top:0;
 	left:0;
 	width:100%;
-	padding:10px;
+	padding:2%;
 	background-color:rgba(0,0,0,0.10);
 	overflow:hidden;
 }
@@ -169,15 +149,20 @@ section#portfolio article img {
 
 /*PRODUCTS CONTENT ENDS*/
 #products {
-	padding-top:12%;
-	width:60%;
-	margin-left:auto;
-	margin-right:auto;
+	padding-top:14%;
 	margin-bottom:0;
 }
 
 #products article {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
 	margin-bottom:36%;
+	visibility:hidden;
+}
+
+#products article:first-child {
+	visibility:visible;
 }
 
 #products article img{
@@ -212,22 +197,15 @@ section#portfolio article img {
 
 #products article button a:hover{
 	text-decoration:none;
+	color:#FCF3C6;
 }
 
-figcaption{
-  color:#000;
-  position:absolute;
-  bottom:0;
-  padding:5px 20px;
-  line-height:1.4em;
-  background-color:rgba(0,0,0,0.10);
-}
 /*PRODUCTS PAGE CONTENT ENDS*/
 
 
 /*ABOUT PAGE CONTENT STARTS*/
 #about {
-	padding-top:275px;
+	padding-top:16%;
 	width:50%;
 	line-height:1.2em;
 	font-size:1.2em;
@@ -238,18 +216,18 @@ figcaption{
 
 #about img {
 	float:left;
-	margin:20px;
+	margin:2%;
 }
 
 #about p {
-	margin:20px;
+	margin:2%;
 }
 
 #about a {
 	color:#082b56;
 	font-weight:bold;
 	line-height:.8em;
-	letter-spacing:.2px;
+	letter-spacing:1%;
 }
 
 #about a:hover {
@@ -260,7 +238,7 @@ figcaption{
 
 /*CONTACT PAGE CONTENT STARTS*/
 #contact {
-	padding-top:200px;
+	padding-top:14%;
 	width:50%;
 	line-height:1.2em;
 	font-size:1em;
@@ -270,17 +248,30 @@ figcaption{
 }
 
 form {
-	width:600px;
+	width:60%;
 	margin-right:auto;
 	margin-left:auto;
-	margin-top:50px;
-	}
+	margin-top:5%;
+}
 	
 fieldset {
 	background-color:#fcf3c6;
 }
 
-#button {
+form input {
+	padding:1%;
+	border-radius:1%;
+	width:100%;
+	font-weight:bold;
+}
+
+#form-intro{
+	line-height:1.4em;
+	font-size:1.2em;
+	width:100%;
+}
+
+#submit {
 	background-color:#041b36;
 	color:#fff;
 	font-size:1em;
@@ -290,21 +281,10 @@ fieldset {
 	margin-left:38%;
 }
 
-form input {
-	padding:5px;
-	border-radius:5px;
-	width:100%;
-	font-weight:bold;
-}
-
-#form-intro{
-	line-height:1.2em;
-}
-
 textarea {
-	padding:5px;
-	border-radius:5px;
-	height:100px;
+	padding:1%;
+	border-radius:1%;
+	height:14em;
 	width:100%;
 }
 /*CONTACT PAGE CONTENT ENDS*/
@@ -313,16 +293,30 @@ textarea {
 /*FOOTER CONTENT STARTS*/
 footer {
 	width:100%;
-	padding-top:5px;
-	padding-bottom:5px;
+	padding-top:.5%;
+	padding-bottom:.5%;
 	text-align:center;
-	color:#fff;
 	background-image:url("../images/stardust_dkbl.png");
 	background-repeat:repeat-x;
+	clear:both;
+}
+
+footer p {
+	color:#fff;
 }
 
 #bottom {
 	position:absolute;
 	bottom:0;
 }
+
 /*FOOTER PAGE CONTENT ENDS*/
+
+a {
+    color:#041b36;
+	text-decoration:none;
+}
+
+a:hover {
+    color:#ffeacc;
+}
