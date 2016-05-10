@@ -18,42 +18,42 @@
 	}
 	
 	#branding img {
-		display:none !important;
+		display:none;
 	}
 	
 	header {
-		height:5em !important;
-		padding:0% !important;
+		height:5em;
+		padding:0%;
 	}
 
 	header h1, h2 {
-		margin-left:auto !important;
-		margin-right:auto !important;
+		margin-left:auto;
+		margin-right:auto;
 		text-align:center;
 	}
 	
 	header #branding h1 {
-		font-size:1.4em !important;
-		margin-top:1em !important;
-		margin-left:.5em !important;
-		margin-bottom:0 !important;
-		padding-bottom:0 !important;
+		font-size:1.4em;
+		margin-top:1em;
+		margin-left:.5em;
+		margin-bottom:0;
+		padding-bottom:0;
 		text-align:left;
 	}
 	
 	header h2 {
-		display:none !important;
+		display:none;
 	}
 	
 	#menu-btn {
-		margin-top:6em !important;
-		margin-right:.5em !important;
+		margin-top:6em;
+		margin-right:.5em;
 	}
 	
 	.menu-btn span {
-		width: 1.1875em !important;
-		height: 0.1875em !important;
-		margin: 0.25em 0 !important;
+		width: 1.1875em;
+		height: 0.1875em;
+		margin: 0.25em 0;
 	}
 	
 /*HEADER ENDS*/
@@ -61,11 +61,11 @@
 /*HOMEPAGE CONTENT STARTS*/	
 
 	section#portfolio {
-		padding-top:9em !important;
+		padding-top:9em;
 	}
 	
 	section#portfolio article {
-		width:50% !important;
+		width:50%;
 	}
 	
 	section#portfolio article div.overlay a {
@@ -77,53 +77,53 @@
 /*PRODUCTS PAGE CONTENT STARTS*/
 
 	#products {
-		padding-top:9em !important;
+		padding-top:9em;
 	}
 	
 	#products article {
-		width:92% !important;
-		margin-bottom:25% !important;
-		visibility:visible !important;
+		width:92%;
+		margin-bottom:25%;
+		visibility:visible;
 	}
 
 	#products article img{
-		float:none !important;
-		width:100% !important;
+		float:none;
+		width:100%;
 	}
 
 	#products article h2 {
-		font-size:1.4em !important;
+		font-size:1.4em;
 		text-align:left;
 	}
 
 	#products article p:nth-child(4){
-		font-size:1.6em !important;
+		font-size:1.6em;
 	}
 
 	#products article button {
-		width:96% !important;
-		margin-right:auto !important;
-		margin-left:auto !important;
+		width:96%;
+		margin-right:auto;
+		margin-left:auto;
 	}
 
 	#products article button a:hover{
-		color:none !important;
+		color:none;
 	}
 	
 	#arrow-right {
-		display:none !important;
+		display:none;
 	}
 
 	#arrow-right:hover{
-		display:none !important;
+		display:none;
 	}
 
 	#arrow-left {
-		display:none !important;
+		display:none;
 	}
 
 	#arrow-left:hover{
-		display:none !important;
+		display:none;
 	}
 	
 /*PRODUCTS PAGE CONTENT ENDS*/
@@ -131,24 +131,24 @@
 /*ABOUT PAGE CONTENT STARTS*/
 	
 	#about {
-		padding-top:6.5em !important;
-		width:92% !important;
+		padding-top:6.5em;
+		width:92%;
 		font-size:1em;
-		margin-bottom:0% !important;
+		margin-bottom:0%;
 	}
 
 	#about img {
 		width:44%;
-		margin-right:6% !important;
+		margin-right:6%;
 	}
 	
 	#about p {
-		margin-bottom:4% !important;
+		margin-bottom:4%;
 	}
 
 	#bottom {
-		position:relative !important;
-		margin-top:2% !important;
+		position:relative;
+		margin-top:2%;
 	}
 	
 	#about a {
@@ -156,7 +156,7 @@
 	}
 
 	#about a:hover {
-		background-color:none !important;
+		background-color:none;
 	}
 
 /*ABOUT PAGE CONTENT ENDS*/
@@ -164,35 +164,35 @@
 /*CONTACT PAGE CONTENT STARTS*/
 
 	#contact {
-		width:100% !important;
-		padding-top:9em !important;
+		width:100%;
+		padding-top:9em;
 	}
 	
 	#form-intro {
 		font-family:‘Arial Narrow’, sans-serif;
-		text-align:left !important;
-		margin-left:3% !important;
-		width:100% !important;
+		text-align:left;
+		margin-left:3%;
+		width:100%;
 	}
 	
 	form {
-		width:96% !important;
+		width:96%;
 	}
 	
 	#submit {
-		width:100% !important;
-		height:2.5em !important;
-		margin-right:auto !important;
-		margin-left:auto !important;
+		width:100%;
+		height:2.5em;
+		margin-right:auto;
+		margin-left:auto;
 	}
 	
 	textarea {
-		height:8em !important;
+		height:8em;
 	}
 	
 	#bottom {
-		position:relative !important;
-		margin-top:2% !important;
+		position:relative;
+		margin-top:2%;
 	}
 	
 /*CONTACT PAGE CONTENT ENDS*/

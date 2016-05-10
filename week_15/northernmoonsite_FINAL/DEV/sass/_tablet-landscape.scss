@@ -4,59 +4,60 @@
 	Color Hex Codes:
 	
 	DKBLUE = #041B36
+	
 	BLUE = #082B56
 	LIGHT YELLOW = #FCF3C6
 
 */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) and (orientation : landscape) {
 	
 	*#store {
-		display: none !important;
+		display: none;
 	}
 	
 	header {
-		height:6.5em !important;
-		padding:0% !important;
+		height:6.5em;
+		padding:0%;
 	}
 	
 	header h1 {
-		font-size:1.8em !important;
-		margin-top:-2em !important;
-		margin-left:4em !important;
+		font-size:1.8em;
+		margin-top:-2em;
+		margin-left:4em;
 	}
 	
 	header h2 {
-		font-size:.85em !important;
-		margin-top:2% !important;
-		margin-left:8.5em !important;
-		letter-spacing:.2% !important;
+		font-size:.85em;
+		margin-top:2%;
+		margin-left:8.5em;
+		letter-spacing:.2%;
 	}
 	
 	header img {
-		width:12% !important;
-		display:inline !important;
-		float:none !important;
-		margin:.5em 0 0 .5em !important;
+		width:12%;
+		display:inline;
+		float:none;
+		margin:.5em 0 0 .5em;
 	}
 	
 	#menu-btn {
-		margin-top:-5em !important;
-		margin-right:.5em !important;
+		margin-top:-5em;
+		margin-right:.5em;
 	}
 	
 	.menu-btn span {
-		width: 1.1875em !important;
-		height: 0.1875em !important;
-		margin: 0.25em 0 !important;
+		width: 1.1875em;
+		height: 0.1875em;
+		margin: 0.25em 0;
 	}
 	
 	.responsive-menu ul {
-		margin-top:-2em !important;
+		margin-top:-2em;
 	}
 	
 	section#portfolio {
-		padding-top:6em !important;
+		padding-top:6em;
 	}
 
 	section#portfolio article div.overlay a {
@@ -65,60 +66,60 @@
 	
 /*PRODUCTS CONTENT ENDS*/
 	#products {
-		padding-top:8em !important;
-		width:100% !important;
-		margin-left:auto !important;
-		margin-right:auto !important;
+		padding-top:8em;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
 	}
 
 	#products article {
-		margin-bottom:15% !important;
-		visibility:visible !important;
+		margin-bottom:15%;
+		visibility:visible;
 	}
 
 	#products article img{
-		float:none !important;
-		width:98% !important;
+		float:none;
+		width:98%;
 	}
 
 	#products article h2 {
-		font-size:1.6em !important;
+		font-size:1.6em;
 		text-align:left;
 	}
 
 	#products article p {
-		font-size:1.2em !important;
+		font-size:1.2em;
 	}
 	
 	#products article p:nth-child(4){
-		font-size:1.8em !important;
+		font-size:1.8em;
 	}
 
 	#products article button{
-		width:40% !important;
-		height:2.5em !important;
-		margin-right:auto !important;
-		margin-left:auto !important;
+		width:40%;
+		height:2.5em;
+		margin-right:auto;
+		margin-left:auto;
 	}
 
 	#products article button a:hover{
-		color:none !important;
+		color:none;
 	}
 
 	#arrow-right {
-		display:none !important;
+		display:none;
 	}
 
 	#arrow-right:hover{
-		display:none !important;
+		display:none;
 	}
 
 	#arrow-left {
-		display:none !important;
+		display:none;
 	}
 
 	#arrow-left:hover{
-		display:none !important;
+		display:none;
 	}
 	
 /*PRODUCTS PAGE CONTENT ENDS*/
@@ -126,19 +127,19 @@
 /*ABOUT PAGE CONTENT STARTS*/
 	
 	#about {
-		padding-top:7em !important;
-		width:92% !important;
+		padding-top:7em;
+		width:92%;
 		font-size:1em;
-		margin-bottom:0% !important;
+		margin-bottom:0%;
 	}
 
 	#about img {
 		width:44%;
-		margin-right:3% !important;
+		margin-right:3%;
 	}
 	
 	#about p {
-		margin-bottom:4% !important;
+		margin-bottom:4%;
 	}
 
 	#about a {
@@ -146,7 +147,7 @@
 	}
 
 	#about a:hover {
-		background-color:none !important;
+		background-color:none;
 	}
 
 /*ABOUT PAGE CONTENT ENDS*/
@@ -154,35 +155,35 @@
 /*CONTACT PAGE CONTENT STARTS*/
 
 	#contact {
-		width:74% !important;
-		padding-top:7em !important;
+		width:74%;
+		padding-top:7em;
 	}
 	
 	#contact h2 {
-		text-align:left !important;
-		margin-left:3% !important;
+		text-align:left;
+		margin-left:3%;
 		width:100%;
 	}
 
 	#contact form {
-		width:90% !important;
+		width:90%;
 		margin-bottom:8%;
 	}
 	
 	#submit {
-		width:60% !important;
-		height:2.5em !important;
-		margin-right:20% !important;
-		margin-left:20% !important;
+		width:60%;
+		height:2.5em;
+		margin-right:20%;
+		margin-left:20%;
 	}
 	
 	textarea {
-		height:8em !important;
+		height:8em;
 	}
 	
 	#bottom {
-		position:relative !important;
-		margin-top:2% !important;
+		position:relative;
+		margin-top:2%;
 	}
 	
 /*CONTACT PAGE CONTENT ENDS*/	
