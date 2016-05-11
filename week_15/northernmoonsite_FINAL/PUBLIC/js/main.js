@@ -82,3 +82,8 @@ $(document).ready(function () {
     	     $('.responsive-menu').toggleClass('expand')
     	     })
         })
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master

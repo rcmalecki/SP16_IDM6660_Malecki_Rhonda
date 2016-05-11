@@ -22,11 +22,16 @@
 	
 	header h1 {
 		font-size:1.8em;
+<<<<<<< HEAD
 		margin-top:-2.25em;
+=======
+		margin-top:-2em;
+>>>>>>> origin/master
 		margin-left:4em;
 	}
 	
 	header h2 {
+<<<<<<< HEAD
 		font-size:.865em;
 		margin-top:2%;
 		margin-left:8.5em;
@@ -46,6 +51,23 @@
 	
 	#menu-btn {
 		margin-top:-4.5em;
+=======
+		font-size:.85em;
+		margin-top:2%;
+		margin-left:8.5em;
+		letter-spacing:.2%;
+	}
+	
+	header img {
+		width:12%;
+		display:inline;
+		float:none;
+		margin:.5em 0 0 .5em;
+	}
+	
+	#menu-btn {
+		margin-top:-5em;
+>>>>>>> origin/master
 		margin-right:.5em;
 	}
 	
@@ -98,16 +120,27 @@
 		font-size:1.8em;
 	}
 
+<<<<<<< HEAD
 	#products article a{
 		width:40%;
 		height:2.5em;
 		padding:.5em;
+=======
+	#products article button{
+		width:40%;
+		height:2.5em;
+>>>>>>> origin/master
 		margin-right:auto;
 		margin-left:auto;
 	}
 
+<<<<<<< HEAD
 	#products article a:hover{
 		color:#fff;
+=======
+	#products article button a:hover{
+		color:none;
+>>>>>>> origin/master
 	}
 
 	#arrow-right {
@@ -139,6 +172,7 @@
 
 	
 	#about img {
+<<<<<<< HEAD
 		width:30%;
 		margin-right:3%;
 		margin-top:10%;
@@ -154,6 +188,14 @@
 	
 	#about p:nth-child(4) {
 		margin-bottom:29.25%;
+=======
+		width:44%;
+		margin-right:3%;
+	}
+	
+	#about p {
+		margin-bottom:4%;
+>>>>>>> origin/master
 	}
 
 	#about a {
@@ -161,7 +203,11 @@
 	}
 
 	#about a:hover {
+<<<<<<< HEAD
 		background-color:#fcf3c6;
+=======
+		background-color:none;
+>>>>>>> origin/master
 	}
 
 /*ABOUT PAGE CONTENT ENDS*/
@@ -169,20 +215,33 @@
 /*CONTACT PAGE CONTENT STARTS*/
 
 	#contact {
+<<<<<<< HEAD
 		width:70%;
+=======
+		width:74%;
+>>>>>>> origin/master
 		padding-top:7em;
 	}
 	
 	#contact h2 {
 		text-align:left;
+<<<<<<< HEAD
 		margin-top:16%;
 		margin-left:3%;
 		width:90%;
+=======
+		margin-left:3%;
+		width:100%;
+>>>>>>> origin/master
 	}
 
 	#contact form {
 		width:90%;
+<<<<<<< HEAD
 		margin-bottom:18%;
+=======
+		margin-bottom:8%;
+>>>>>>> origin/master
 	}
 	
 	#submit {
