@@ -36,6 +36,44 @@ $(document).ready(function () {
 
 	});
 
+	function fixHash(currentProduct) {
+
+		console.log("This is the function fixHash() speaking");
+
+		console.log(currentProduct.attr("id"));
+
+		window.location.hash = '#' + currentProduct.attr("id") ;
+
+
+	}
+
+	$("#products").each(function(e) {
+		if (e != 0)
+			$(this).hide();
+	});
+
+	$("#arrow-right").click(function(){
+		if ($("#products article:visible").next().length != 0)
+			$("#products article:visible").next().show().prev().hide();
+		else {
+			$("#products article:visible").hide();
+			$("#products article:first").show();
+		}
+		fixHash($("#products article:visible img"));
+		return false;
+	});
+
+	$("#arrow-left").click(function(){
+		if ($("#products article:visible").prev().length != 0)
+			$("#products article:visible").prev().show().next().hide();
+		else {
+			$("#products article:visible").hide();
+			$("#products article:last").show();
+		}
+		fixHash($("#products article:visible img"));
+		return false;
+	});
+
 
 });
 
@@ -44,33 +82,3 @@ $(document).ready(function () {
     	     $('.responsive-menu').toggleClass('expand')
     	     })
         })
-
-	$(document).ready(function(){
-		$("#products").each(function(e) {
-			if (e != 0)
-				$(this).hide();
-		});
-
-		$("#arrow-right").click(function(){
-			if ($("#products article:visible").next().length != 0)
-				$("#products article:visible").next().show().prev().hide();
-			else {
-				$("#products article:visible").hide();
-				$("#products article:first").show();
-			}
-			return false;
-		});
-
-		$("#arrow-left").click(function(){
-			if ($("#products article:visible").prev().length != 0)
-				$("#products article:visible").prev().show().next().hide();
-			else {
-				$("#products article:visible").hide();
-				$("#products article:last").show();
-			}
-			return false;
-		});
-		
-	});
-
-

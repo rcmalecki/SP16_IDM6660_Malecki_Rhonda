@@ -6,7 +6,6 @@
 	DKBLUE = #041B36
 	BLUE = #082B56
 	LIGHT YELLOW = #FCF3C6
-
 */
 
 * { 
@@ -16,7 +15,7 @@
 }
 
 body {
-	font-family:‘Arial Narrow’, sans-serif;
+	font-family: 'Arial Narrow', Arial, sans-serif;
 	background-color:#fff;
 	padding:0;
 	margin:0;
@@ -152,7 +151,7 @@ h1 h2 p {
 	}
 
 	.expand {
-		display: block !important; 
+		display: block; 
 	}
 
 	.open-menu-link{
@@ -166,7 +165,7 @@ h1 h2 p {
 	}
 
 	.visible {
-		display: block !important;
+		display: block;
 	}
 
 /*HEADER ENDS*/
@@ -254,7 +253,7 @@ h1 h2 p {
 	}
 
 	#products article h2, p{
-		font-family:‘Arial Narrow’, sans-serif;
+		font-family: 'Arial Narrow', Arial, sans-serif;
 		color:#041B36;
 		line-height:1.3em;
 	}
@@ -263,22 +262,18 @@ h1 h2 p {
 		font-size:1.5em;
 	}
 
-	#products article button{
+	#products article a {
 		background-color:#041B36;
 		color:#fff;
 		padding:1% 2%;
 		width:26%;
 		border-radius:8%;
 		font-size:1.3em;
-	}
-
-	#products article button a{
 		text-align:center;
 		color:#fff;
-		background-color:none;
 	}
 
-	#products article button a:hover{
+	#products article a:hover{
 		text-decoration:none;
 		color:#FCF3C6;
 	}
@@ -355,7 +350,6 @@ h1 h2 p {
 		color:#082b56;
 		font-weight:bold;
 		line-height:.8em;
-		letter-spacing:1%;
 	}
 
 	#about a:hover {
@@ -395,7 +389,7 @@ h1 h2 p {
 	}
 
 	#form-intro {
-		font-family:‘Arial Narrow’, sans-serif;
+		font-family: 'Arial Narrow', Arial, sans-serif;
 		line-height:1.4em;
 		font-size:1.2em;
 		width:100%;
